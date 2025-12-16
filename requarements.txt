@@ -1,0 +1,38 @@
+# Основные зависимости для PySpark
+pyspark>=3.5.0
+
+# Hadoop для Windows
+# Скачать вручную: https://github.com/cdarlint/winutils
+# Установить в C:\hadoop или указать путь через HADOOP_HOME
+
+# Анализ и обработка данных
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Визуализация
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Утилиты
+psutil>=5.9.0
+python-dateutil>=2.8.2
+
+# ML и статистика
+scikit-learn>=1.3.0
+statsmodels>=0.14.0
+
+# Работа с файлами
+openpyxl>=3.1.0
+xlrd>=2.0.0
+
+# Для отладки и логирования
+jupyter>=1.0.0
+ipykernel>=6.25.0
+ipython>=8.14.0
+
+# Управление окружением
+virtualenv>=20.24.0
+pip>=23.0.0
+setuptools>=68.0.0
+wheel>=0.41.0
